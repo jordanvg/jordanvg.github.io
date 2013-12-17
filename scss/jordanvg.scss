@@ -6,6 +6,19 @@
 @import "font-awesome/font-awesome";
 @import "bootstrap/bootstrap";
 
+html {
+  background: url(../images/bg.jpg) no-repeat center center fixed;
+  /* Photo credit: Jamie Lowen http://www.flickr.com/photos/luculent/8089248473/sizes/o/ */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background-color: transparent;
+}
+
 ul.social-links {
   padding: 0;
   
@@ -29,6 +42,7 @@ ul.social-links {
       width: 60px;
       display: table-cell;
       vertical-align: middle;
+      border-radius: 50%;
       text-align: center;
       color: #fff;
       transition: 0.5s;
